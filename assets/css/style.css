@@ -1623,13 +1623,17 @@ a {
 	padding-right: 0;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (prefers-color-scheme: dark) {
 	.pb_navbar.light .navbar-nav{
 		background: #FFFFFF;
 	}
 }
 
-
+@media (max-width: 991px) and (prefers-color-scheme: light) {
+	.pb_navbar.light .navbar-nav{
+		background: rgba(0, 0, 0, 0.8);
+	}
+}
 
 
 
