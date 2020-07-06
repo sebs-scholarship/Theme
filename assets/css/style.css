@@ -82,6 +82,8 @@
 	.homepage .title {color: #aa0000;}
 	.feed-item h3 {color: #aa0000;margin-bottom: 15px;}
 	.feed-item .date {color: #aa0000}
+
+	strong {color: white;}
 }
   
 @media (prefers-color-scheme: light) {
@@ -151,6 +153,8 @@
 	.homepage .title {color: #800000;}
 	.feed-item h3 {color: #800000;margin-bottom: 15px;}
 	.feed-item .date {color: #800000}
+
+	strong {color: black;}
 }
 
 .mouse-wrap,
