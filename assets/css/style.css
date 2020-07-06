@@ -2789,3 +2789,7 @@ input:focus
 	float: left;
 	margin-right: 5px;
 }
+
+.blog-feed a:hover {
+	text-decoration: none;
+}
