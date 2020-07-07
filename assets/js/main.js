@@ -201,13 +201,6 @@ $(document).ready(function($) {
 	};
 	offCanvasNav();
 
-	var ytpPlayer = function() {
-		if ($('.ytp_player').length > 0) {
-			$('.ytp_player').mb_YTPlayer();
-		}
-	};
-	ytpPlayer();
-
 	function updateYear() {
 		var year = $("#year");
 		year.text(new Date().getFullYear());
