@@ -2812,3 +2812,7 @@ input:focus {
 .blog-feed a:hover {
   text-decoration: none;
 }
+
+.pagination > * {
+  margin: 4px; 
+  }
