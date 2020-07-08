@@ -2816,3 +2816,13 @@ input:focus {
 .pagination > * {
   margin: 4px; 
   }
+  .currentPage{
+    color:#800000;
+  }
+
+ .notSelected{
+	  color: #5D6369;
+  }
+  .pagination{
+	margin: 0 auto;
+  }
