@@ -127,6 +127,11 @@
   strong {
     color: white;
   }
+
+  .currentPage {
+    color: #a00;
+    font-weight: bold;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -231,6 +236,11 @@
 
   strong {
     color: black;
+  }
+
+  .currentPage {
+    color: #800000;
+    font-weight: bold;
   }
 }
 
@@ -2822,11 +2832,6 @@ input:focus {
 .social {
   float: left;
   margin-right: 5px;
-}
-
-.currentPage {
-  color: #800000;
-  font-weight: bold;
 }
 
 .notSelected {
