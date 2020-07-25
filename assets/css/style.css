@@ -2521,6 +2521,10 @@ body {
   margin-bottom: 0;
 }
 
+.pagination > * {
+  margin: 4px;
+}
+
 .pb_slide_v1 .link-block .slide-text *:last-child {
   margin-bottom: 0;
 }
@@ -2820,22 +2824,15 @@ input:focus {
   margin-right: 5px;
 }
 
-.blog-feed a:hover {
-  text-decoration: none;
-}
-
-.pagination > * {
-  margin: 4px; 
-}
-
-.currentPage{
-  color:#800000;
+.currentPage {
+  color: #800000;
   font-weight: bold;
 }
 
-.notSelected{
-  color: #5D6369;
+.notSelected {
+  color: #5d6369;
 }
-.pagination{
+
+.pagination {
   margin: 0 auto;
 }
