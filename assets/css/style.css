@@ -127,6 +127,11 @@
   strong {
     color: white;
   }
+
+  .currentPage {
+    color: #a00;
+    font-weight: bold;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -231,6 +236,11 @@
 
   strong {
     color: black;
+  }
+
+  .currentPage {
+    color: #800000;
+    font-weight: bold;
   }
 }
 
@@ -2521,6 +2531,10 @@ body {
   margin-bottom: 0;
 }
 
+.pagination > * {
+  margin: 4px;
+}
+
 .pb_slide_v1 .link-block .slide-text *:last-child {
   margin-bottom: 0;
 }
@@ -2818,4 +2832,12 @@ input:focus {
 .social {
   float: left;
   margin-right: 5px;
+}
+
+.notSelected {
+  color: #5d6369;
+}
+
+.pagination {
+  margin: 0 auto;
 }
