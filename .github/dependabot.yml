@@ -4,5 +4,5 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    default_reviewers:
+    reviewers:
       - "leviem1"
