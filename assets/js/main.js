@@ -2,6 +2,16 @@
 $(document).ready(function () {
   'use strict'
 
+  var loader = function () {
+    setTimeout(function () {
+      var loader = $('#pb_loader')
+      if (loader.length > 0) {
+        loader.removeClass('show')
+      }
+    }, 500)
+  }
+  loader()
+
   // scroll
   var scrollWindow = function () {
     $(window).scroll(function () {
