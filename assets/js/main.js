@@ -2,6 +2,16 @@
 $(document).ready(function () {
   'use strict'
 
+  var loader = function () {
+    setTimeout(function () {
+      var loader = $('#pb_loader')
+      if (loader.length > 0) {
+        loader.removeClass('show')
+      }
+    }, 700)
+  }
+  loader()
+
   // scroll
   var scrollWindow = function () {
     $(window).scroll(function () {
@@ -197,14 +207,4 @@ $(document).ready(function () {
   }
 
   updateYear()
-})
-
-$(window).load(function () {
-  var loader = function () {
-    var loader = $('#pb_loader')
-    if (loader.length > 0) {
-      loader.removeClass('show')
-    }
-  }
-  loader()
 })
