@@ -149,7 +149,7 @@
   }
 
   body {
-    color: #5d6369;
+    color: #1b1d1f;
   }
 
   h1,
@@ -217,7 +217,7 @@
   }
 
   .feed-item p {
-    color: #5d6369;
+    color: #1b1d1f;
     margin-bottom: 0;
   }
 
@@ -2320,6 +2320,7 @@ body {
   width: 80px;
   height: 80px;
   position: relative;
+  color: #5d6369;
 }
 
 .pb_hover-zoom {
