@@ -132,6 +132,11 @@
     color: #a00;
     font-weight: bold;
   }
+
+  .pb_media_v1 > .icon,
+  .pb_media_v2 > .icon {
+    color: #c6c8ca;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -241,6 +246,12 @@
   .currentPage {
     color: #800000;
     font-weight: bold;
+  }
+
+
+  .pb_media_v1 > .icon,
+  .pb_media_v2 > .icon {
+    color: #5d6369;
   }
 }
 
@@ -2320,7 +2331,6 @@ body {
   width: 80px;
   height: 80px;
   position: relative;
-  color: #5d6369;
 }
 
 .pb_hover-zoom {
