@@ -137,6 +137,10 @@
   .pb_media_v2 > .icon {
     color: #c6c8ca;
   }
+
+  .notSelected {
+    color: #c6c8ca;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -251,6 +255,10 @@
   .pb_media_v1 > .icon,
   .pb_media_v2 > .icon {
     color: #5d6369;
+  }
+
+  .notSelected {
+    color: #1b1d1f;
   }
 }
 
@@ -2842,10 +2850,6 @@ input:focus {
 .social {
   float: left;
   margin-right: 5px;
-}
-
-.notSelected {
-  color: #1b1d1f;
 }
 
 .pagination {
