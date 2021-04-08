@@ -2802,6 +2802,12 @@ p.parent {
   text-align: center;
 }
 
+.donor-logo a > img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .grecaptcha-badge {
   z-index: 99;
 }
