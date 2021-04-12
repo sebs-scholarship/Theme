@@ -141,6 +141,10 @@
   .notSelected {
     color: #c6c8ca;
   }
+
+  .ais-infinite-hits--showmore > button {
+    color: #a00;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -259,6 +263,10 @@
 
   .notSelected {
     color: #1b1d1f;
+  }
+
+  .ais-infinite-hits--showmore > button {
+    color: #800000;
   }
 }
 
@@ -2457,6 +2465,14 @@ body {
   width: 100%;
 }
 
+.ais-infinite-hits--showmore > button {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
 .slick-dots li button {
   border: 0;
   background: transparent;
@@ -2638,9 +2654,6 @@ body {
 .overflow-hidden {
   overflow: hidden;
 }
-
-
-/*# sourceMappingURL=style.css.map */
 
 p.parent {
   margin-bottom: 0.5rem;
@@ -2860,4 +2873,13 @@ input:focus {
 
 .pagination {
   margin: 0 auto;
+}
+
+#search-searchbar > .ais-search-box {
+  max-width: 100%;
+}
+
+.ais-Highlight {
+  font-style: normal;
+  text-decoration: underline;
 }
