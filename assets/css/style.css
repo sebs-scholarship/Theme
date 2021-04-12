@@ -493,6 +493,12 @@
   height: 200px;
 }
 
+.donor-logo a > img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .testimonial_v2 .pb_media-header img {
   height: 70px;
 }
@@ -2800,12 +2806,6 @@ p.parent {
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-}
-
-.donor-logo a > img {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
 }
 
 .grecaptcha-badge {
