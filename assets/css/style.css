@@ -377,6 +377,15 @@
   margin-top: 2rem !important;
 }
 
+.post > iframe {
+  width: 75%;
+  min-height: 315px;
+  margin: auto;
+  display: block;
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+}
+
 .pb_hover-zoom img {
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
