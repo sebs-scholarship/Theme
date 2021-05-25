@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   const loader = function () {
     setTimeout(function () {
-      const loader = $('#pb_loader')
+      const loader = $('#pb_loader');
       if (loader.length > 0) {
         loader.removeClass('show')
       }
@@ -15,10 +15,10 @@ $(document).ready(function () {
   // scroll
   const scrollWindow = function () {
     $(window).scroll(function () {
-      const $w = $(this)
-      const st = $w.scrollTop()
-      const navbar = $('.pb_navbar')
-      const sd = $('.js-scroll-wrap')
+      const $w = $(this);
+      const st = $w.scrollTop();
+      const navbar = $('.pb_navbar');
+      const sd = $('.js-scroll-wrap');
 
       if (st > 150) {
         if (!navbar.hasClass('scrolled')) {
@@ -70,8 +70,8 @@ $(document).ready(function () {
   const OnePageNav = function () {
     $(".smoothscroll[href^='#'], #probootstrap-navbar ul li a[href^='#']").on('click', function (e) {
       e.preventDefault()
-      const hash = this.hash
-      const navToggler = $('.navbar-toggler')
+      const hash = this.hash;
+      const navToggler = $('.navbar-toggler');
       $('html, body').animate({
 
         scrollTop: $(hash).offset().top
@@ -87,8 +87,8 @@ $(document).ready(function () {
   OnePageNav()
 
   const offCanvasNav = function () {
-    const toggleNav = $('.js-pb_nav-toggle')
-    const offcanvasNav = $('.js-pb_offcanvas-nav_v1')
+    const toggleNav = $('.js-pb_nav-toggle');
+    const offcanvasNav = $('.js-pb_offcanvas-nav_v1');
     if (toggleNav.length > 0) {
       toggleNav.click(function (e) {
         $(this).toggleClass('active')
@@ -107,7 +107,7 @@ $(document).ready(function () {
   offCanvasNav()
 
   function updateYear () {
-    const year = $('#year')
+    const year = $('#year');
     year.text(new Date().getFullYear())
   }
 
@@ -116,7 +116,7 @@ $(document).ready(function () {
 
 $(window).on('load', function () {
   const loader = function () {
-    const loader = $('#pb_loader')
+    const loader = $('#pb_loader');
     if (loader.length > 0) {
       loader.removeClass('show')
     }
