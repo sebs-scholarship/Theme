@@ -2,23 +2,23 @@
 $(document).ready(function () {
   'use strict'
 
-  let loader = function () {
+  const loader = function () {
     setTimeout(function () {
-      let loader = $('#pb_loader');
+      const loader = $('#pb_loader');
       if (loader.length > 0) {
         loader.removeClass('show')
       }
     }, 500)
-  };
+  }
   loader()
 
   // scroll
-  let scrollWindow = function () {
+  const scrollWindow = function () {
     $(window).scroll(function () {
-      let $w = $(this);
-      let st = $w.scrollTop();
-      let navbar = $('.pb_navbar');
-      let sd = $('.js-scroll-wrap');
+      const $w = $(this);
+      const st = $w.scrollTop();
+      const navbar = $('.pb_navbar');
+      const sd = $('.js-scroll-wrap');
 
       if (st > 150) {
         if (!navbar.hasClass('scrolled')) {
@@ -49,7 +49,7 @@ $(document).ready(function () {
         }
       }
     })
-  };
+  }
   scrollWindow()
 
   // slick sliders
@@ -67,11 +67,11 @@ $(document).ready(function () {
   slickSliders()
 
   // navigation
-  let OnePageNav = function () {
+  const OnePageNav = function () {
     $(".smoothscroll[href^='#'], #probootstrap-navbar ul li a[href^='#']").on('click', function (e) {
       e.preventDefault()
-      let hash = this.hash;
-      let navToggler = $('.navbar-toggler');
+      const hash = this.hash;
+      const navToggler = $('.navbar-toggler');
       $('html, body').animate({
 
         scrollTop: $(hash).offset().top
@@ -83,12 +83,12 @@ $(document).ready(function () {
         navToggler.click()
       }
     })
-  };
+  }
   OnePageNav()
 
-  let offCanvasNav = function () {
-    let toggleNav = $('.js-pb_nav-toggle');
-    let offcanvasNav = $('.js-pb_offcanvas-nav_v1');
+  const offCanvasNav = function () {
+    const toggleNav = $('.js-pb_nav-toggle');
+    const offcanvasNav = $('.js-pb_offcanvas-nav_v1');
     if (toggleNav.length > 0) {
       toggleNav.click(function (e) {
         $(this).toggleClass('active')
@@ -103,11 +103,11 @@ $(document).ready(function () {
       }
       e.preventDefault()
     })
-  };
+  }
   offCanvasNav()
 
   function updateYear () {
-    let year = $('#year');
+    const year = $('#year');
     year.text(new Date().getFullYear())
   }
 
@@ -115,11 +115,11 @@ $(document).ready(function () {
 })
 
 $(window).on('load', function () {
-  let loader = function () {
-    let loader = $('#pb_loader');
+  const loader = function () {
+    const loader = $('#pb_loader');
     if (loader.length > 0) {
       loader.removeClass('show')
     }
-  };
+  }
   loader()
 })
