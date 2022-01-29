@@ -1,10 +1,10 @@
 @media (prefers-color-scheme: dark) {
   a {
-    color: #a00;
+    color: #be0000;
   }
 
   a:hover {
-    color: #800000;
+    color: #d40000;
   }
 
   .pb_outline-dark {
@@ -51,7 +51,7 @@
   }
 
   .pb_navbar.scrolled.pb_scrolled-light .navbar-brand {
-    color: #a00;
+    color: #be0000;
   }
 
   .pb_navbar.scrolled.pb_scrolled-light ul li a {
@@ -65,7 +65,7 @@
   }
 
   .pb_navbar.scrolled.pb_scrolled-light ul li a.active {
-    color: #a00 !important;
+    color: #be0000 !important;
   }
 
   .pb_media_v1 h3,
@@ -112,16 +112,16 @@
   }
 
   .homepage .title {
-    color: #a00;
+    color: #be0000;
   }
 
   .feed-item h3 {
-    color: #a00;
+    color: #be0000;
     margin-bottom: 15px;
   }
 
   .feed-item .date {
-    color: #a00;
+    color: #be0000;
   }
 
   strong {
@@ -129,7 +129,7 @@
   }
 
   .currentPage {
-    color: #a00;
+    color: #be0000;
     font-weight: bold;
   }
 
@@ -143,7 +143,7 @@
   }
 
   .ais-infinite-hits--showmore > button {
-    color: #a00;
+    color: #be0000;
   }
 }
 
