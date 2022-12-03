@@ -1,0 +1,19 @@
+<section class="pb_section">
+    <div class="container">
+        <div class="row justify-content-md-center text-center">
+            <div class="col-lg-7">
+                <h1 class="title font-weight-normal mb-3">{{ include.header }}</h1>
+                <p>{{ include.description }}</p>
+                <hr>
+                <p>To make up for it, here's a fortune for you:</p>
+                <p id="fortune"></p>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="/assets/js/fortunes.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("fortune").innerText = "\"" + getFortune() + "\""
+    });
+</script>
