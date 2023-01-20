@@ -4,7 +4,7 @@ $(document).ready(function () {
 
   const loader = function () {
     setTimeout(function () {
-      const loader = $('#pb-loader')
+      const loader = $('#pb_loader')
       if (loader.length > 0) {
         loader.removeClass('show')
       }
@@ -17,7 +17,7 @@ $(document).ready(function () {
     $(window).scroll(function () {
       const $w = $(this)
       const st = $w.scrollTop()
-      const navbar = $('.pb-navbar')
+      const navbar = $('.pb_navbar')
       const sd = $('.js-scroll-wrap')
 
       if (st > 150) {
@@ -116,7 +116,7 @@ $(document).ready(function () {
 
 $(window).on('load', function () {
   const loader = function () {
-    const loader = $('#pb-loader')
+    const loader = $('#pb_loader')
     if (loader.length > 0) {
       loader.removeClass('show')
     }
