@@ -128,7 +128,7 @@
     color: white;
   }
 
-  .currentPage {
+  .current-page {
     color: #be0000;
     font-weight: bold;
   }
@@ -138,11 +138,11 @@
     color: #c6c8ca;
   }
 
-  .notSelected {
+  .not-selected {
     color: #c6c8ca;
   }
 
-  .ais-infinite-hits--showmore > button {
+  .ais-infinite-hits--showmore > button { /* stylelint-disable-line selector-class-pattern */
     color: #be0000;
   }
 }
@@ -251,7 +251,7 @@
     color: black;
   }
 
-  .currentPage {
+  .current-page {
     color: #800000;
     font-weight: bold;
   }
@@ -261,11 +261,11 @@
     color: #5d6369;
   }
 
-  .notSelected {
+  .not-selected {
     color: #1b1d1f;
   }
 
-  .ais-infinite-hits--showmore > button {
+  .ais-infinite-hits--showmore > button { /* stylelint-disable-line selector-class-pattern */
     color: #800000;
   }
 }
@@ -1354,7 +1354,7 @@ p {
   background: #ff5b9c;
 }
 
-.cover-bg-redL::before {
+.cover-bg-red::before {
   background: #ee0427;
 }
 
@@ -1387,10 +1387,8 @@ p {
   background: -o-linear-gradient(45deg, #665fee 0%, #27c2de 100%);
   background: linear-gradient(45deg, #665fee 0%, #27c2de 100%);
 
-  /* stylelint-disable function-no-unknown */
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#665fee', endColorstr='#27c2de', GradientType=1);
-  /* stylelint-enable function-no-unknown */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#665fee', endColorstr='#27c2de', GradientType=1); /* stylelint-disable-line function-no-unknown */
 
   /* IE6-9 fallback on horizontal gradient */
   content: "";
@@ -2123,11 +2121,11 @@ body {
   width: 16px;
 }
 
-#scrollDiv a {
+#scroll-div a {
   padding-top: 60px;
 }
 
-#scrollDiv a span {
+#scroll-div a span {
   position: absolute;
   top: 0;
   left: 50%;
@@ -2139,7 +2137,7 @@ body {
   box-sizing: border-box;
 }
 
-#scrollDiv a span::before {
+#scroll-div a span::before {
   position: absolute;
   top: 10px;
   left: 50%;
@@ -2484,7 +2482,7 @@ body {
   width: 100%;
 }
 
-.ais-infinite-hits--showmore > button {
+.ais-infinite-hits--showmore > button { /* stylelint-disable-line selector-class-pattern */
   display: block;
   margin: 0 auto;
   padding: 0;
@@ -2898,7 +2896,7 @@ input:focus {
   max-width: 100%;
 }
 
-.ais-Highlight {
+.ais-Highlight { /* stylelint-disable-line selector-class-pattern */
   font-style: normal;
   text-decoration: underline;
 }
