@@ -2,6 +2,7 @@
   "extends": "stylelint-config-standard",
   "rules": {
     "property-no-vendor-prefix": null,
-    "at-rule-no-vendor-prefix": null
+    "at-rule-no-vendor-prefix": null,
+    "selector-no-vendor-prefix": null
   }
 }
