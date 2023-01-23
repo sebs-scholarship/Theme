@@ -1388,7 +1388,10 @@ p {
   background: linear-gradient(45deg, #665fee 0%, #27c2de 100%);
 
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#665fee', endColorstr='#27c2de', GradientType=1); /* stylelint-disable-line function-no-unknown */
+
+  /* stylelint-disable function-no-unknown */
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#665fee', endColorstr='#27c2de', GradientType=1);
+  /* stylelint-enable function-no-unknown */
 
   /* IE6-9 fallback on horizontal gradient */
   content: "";
