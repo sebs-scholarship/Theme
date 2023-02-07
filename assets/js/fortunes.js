@@ -42,6 +42,6 @@ const fortunesList = [
     "Fortune favors the brave."
 ];
 
-const getFortune = function () {
+const getFortune = function () { // eslint-disable-line no-unused-vars
     return fortunesList[Math.floor(Math.random() * fortunesList.length)];
 }
