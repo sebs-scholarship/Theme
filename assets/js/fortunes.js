@@ -1,4 +1,4 @@
-/* global $ */
+
 const fortunesList = [
   'People are naturally attracted to you.',
   'You learn from your mistakes... You will learn a lot today.',
