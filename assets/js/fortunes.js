@@ -43,5 +43,5 @@ const fortunesList = [
 ]
 
 const getFortune = function () { // eslint-disable-line no-unused-vars
-    return fortunesList[Math.floor(Math.random() * fortunesList.length)]
+  return fortunesList[Math.floor(Math.random() * fortunesList.length)]
 }
