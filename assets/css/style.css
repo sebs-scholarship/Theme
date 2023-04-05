@@ -2903,3 +2903,12 @@ input:focus {
   font-style: normal;
   text-decoration: underline;
 }
+.post ul{
+  list-style-position: inside;
+ 
+
+}
+.post li{
+margin-bottom: 0 0 .5rem ;
+
+}
