@@ -2059,6 +2059,14 @@ body {
   overflow-y: auto;
 }
 
+.post ul {
+  list-style-position: inside;
+}
+
+.post li {
+  margin: 0 0 0.5rem;
+}
+
 .pb-offcanvas-nav-v1 .pb-main-nav li {
   list-style: none;
   line-height: 1.5;
