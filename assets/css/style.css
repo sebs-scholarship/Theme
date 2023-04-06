@@ -2061,17 +2061,16 @@ body {
 
 .post ul {
   list-style-position: inside;
-   }
+}
 
-  .post li{
-  margin-bottom: 0 0 .5rem ;
-  
-  }
+.post li {
+  margin-bottom: 0 0 .5rem 
+}
 
 .pb-offcanvas-nav-v1 .pb-main-nav li {
   list-style: none;
   line-height: 1.5;
-  margin-bottom: 10px;
+  margin: 10px;
 }
 
 .pb-offcanvas-nav-v1 .pb-main-nav li a.active {
@@ -2910,4 +2909,5 @@ input:focus {
 
 .ais-Highlight { /* stylelint-disable-line selector-class-pattern */
   font-style: normal;
-  text-decoration: underline;}
+  text-decoration: underline;
+}
