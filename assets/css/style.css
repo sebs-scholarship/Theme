@@ -2064,13 +2064,13 @@ body {
 }
 
 .post li {
-  margin-bottom: 0 0 .5rem 
+  margin: 0 0 0.5rem;
 }
 
 .pb-offcanvas-nav-v1 .pb-main-nav li {
   list-style: none;
   line-height: 1.5;
-  margin: 10px;
+  margin-bottom: 10px;
 }
 
 .pb-offcanvas-nav-v1 .pb-main-nav li a.active {
