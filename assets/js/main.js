@@ -105,13 +105,6 @@ $(document).ready(function () {
     })
   }
   offCanvasNav()
-
-  function updateYear () {
-    const year = $('#year')
-    year.text(new Date().getFullYear())
-  }
-
-  updateYear()
 })
 
 $(window).on('load', function () {
