@@ -7,11 +7,6 @@
     color: #d40000;
   }
 
-  .pb-outline-dark {
-    border: 1px solid rgba(255 255 255 / 20%);
-    color: white;
-  }
-
   body {
     color: #c6c8ca;
     background-color: #16181b;
@@ -145,6 +140,13 @@
   .ais-infinite-hits--showmore > button { /* stylelint-disable-line selector-class-pattern */
     color: #be0000;
   }
+
+  .pb-outline-dark:hover,
+  .pb-outline-dark:active,
+  .pb-outline-dark:focus {
+    color: white;
+    border: 1px solid white;
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -154,11 +156,6 @@
 
   a:hover {
     color: #500000;
-  }
-
-  .pb-outline-dark {
-    border: 1px solid rgba(0 0 0 / 20%);
-    color: black;
   }
 
   body {
@@ -267,6 +264,13 @@
 
   .ais-infinite-hits--showmore > button { /* stylelint-disable-line selector-class-pattern */
     color: #800000;
+  }
+
+  .pb-outline-dark:hover,
+  .pb-outline-dark:active,
+  .pb-outline-dark:focus {
+    color: black;
+    border: 1px solid black;
   }
 }
 
@@ -1521,17 +1525,17 @@ textarea {
 
 .pb-outline-dark {
   text-transform: uppercase;
-  background: none;
+  background: #800000;
+  border: 1px solid black;
   cursor: pointer;
+  color: white;
 }
 
 .pb-outline-dark:hover,
 .pb-outline-dark:active,
 .pb-outline-dark:focus {
   outline: none;
-  background: #800000 !important;
-  border: 1px solid black;
-  color: #fff;
+  background: rgba(255 255 255 / 30%) !important;
 }
 
 .form-input:focus {
