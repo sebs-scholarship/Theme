@@ -70,7 +70,7 @@ $(document).ready(function () {
   const OnePageNav = function () {
     $(".smoothscroll[href^='#'], #probootstrap-navbar ul li a[href^='#']").on('click', function (e) {
       const hash = this.hash
-      if (hash === "") return
+      if (hash === '') return
 
       e.preventDefault()
       const navToggler = $('.navbar-toggler')
