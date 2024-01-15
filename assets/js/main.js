@@ -69,11 +69,12 @@ $(document).ready(function () {
   // navigation
   const OnePageNav = function () {
     $(".smoothscroll[href^='#'], #probootstrap-navbar ul li a[href^='#']").on('click', function (e) {
-      e.preventDefault()
       const hash = this.hash
+      if (hash === "") return
+
+      e.preventDefault()
       const navToggler = $('.navbar-toggler')
       $('html, body').animate({
-
         scrollTop: $(hash).offset().top
       }, 700, 'easeInOutExpo', function () {
         window.location.hash = hash
