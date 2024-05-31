@@ -1,0 +1,32 @@
+<!-- Common -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="msapplication-config" content="assets/images/browserconfig.xml">
+<meta name="theme-color" content="#800000">
+<meta property="og:url" content="{{ site.url | append: page.url }}" />
+
+<!-- Title -->
+{% if page.title %}
+<title>{{ page.title }} - {{ site.title }}</title>
+<meta property="og:title" content="{{ page.title }}" />
+{% else %}
+<title>{{ site.title }}</title>
+<meta property="og:title" content="{{ site.title }}" />
+{% endif %}
+
+<!-- Description -->
+{% if page.is_post %}
+<meta name="author" content="{{ page.author }}">
+<meta property="og:type" content="article" />
+<meta property="og:article:author" content="{{ page.author }}">
+<meta name="description" content="{{ page.content | strip_html | truncatewords:50 }}">
+<meta property="og:description" content="{{ page.content | strip_html | truncatewords:50 }}">
+{% elsif page.title %}
+<meta name="description" content="{{ page.content | strip_html | truncatewords:50 }}">
+<meta property="og:description" content="{{ page.content | strip_html | truncatewords:50 }}">
+{% else %}
+<meta name="description" content="{{ site.description }}">
+<meta property="og:type" content="website" />
+<meta property="og:description" content="{{ site.description }}">
+{% endif %}
