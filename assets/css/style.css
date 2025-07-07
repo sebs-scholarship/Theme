@@ -1,12 +1,4 @@
 @media (prefers-color-scheme: dark) {
-  a {
-    color: #be0000;
-  }
-
-  a:hover {
-    color: #d40000;
-  }
-
   body {
     color: #c6c8ca;
     background-color: #16181b;
@@ -45,10 +37,6 @@
     background: #2e3133 !important;
   }
 
-  .pb-navbar.scrolled.pb-scrolled-light .navbar-brand {
-    color: #be0000;
-  }
-
   .pb-navbar.scrolled.pb-scrolled-light ul li a {
     color: #fff !important;
   }
@@ -57,10 +45,6 @@
   .pb-navbar.scrolled.pb-scrolled-light ul li a:active,
   .pb-navbar.scrolled.pb-scrolled-light ul li a:focus {
     color: #c6c8ca !important;
-  }
-
-  .pb-navbar.scrolled.pb-scrolled-light ul li a.active {
-    color: #be0000 !important;
   }
 
   .pb-media-v1 h3,
@@ -147,17 +131,19 @@
     color: white;
     border: 1px solid white;
   }
+
+  .donor-logo:hover .donor-logo-cover {
+    background-color: #0c4700cc;
+    color: rgba(255 255 255 / 100%);
+  }
+
+  .pb-outline-dark {
+    background: #0c4700;
+    color: white;
+  }
 }
 
 @media (prefers-color-scheme: light) {
-  a {
-    color: #800000;
-  }
-
-  a:hover {
-    color: #500000;
-  }
-
   body {
     color: #1b1d1f;
   }
@@ -191,10 +177,6 @@
     background: #fff !important;
   }
 
-  .pb-navbar.scrolled.pb-scrolled-light .navbar-brand {
-    color: #800000;
-  }
-
   .pb-navbar.scrolled.pb-scrolled-light ul li a {
     color: #212529 !important;
   }
@@ -203,10 +185,6 @@
   .pb-navbar.scrolled.pb-scrolled-light ul li a:active,
   .pb-navbar.scrolled.pb-scrolled-light ul li a:focus {
     color: #868e96 !important;
-  }
-
-  .pb-navbar.scrolled.pb-scrolled-light ul li a.active {
-    color: #800000 !important;
   }
 
   .pb-media-v1 h3,
@@ -272,6 +250,32 @@
     color: black;
     border: 1px solid black;
   }
+
+  .donor-logo:hover .donor-logo-cover {
+    background-color: #ffd819cc;
+    color: rgba(0 0 0 / 100%);
+  }
+
+  .pb-outline-dark {
+    background: #ffd819;
+    color: black;
+  }
+}
+
+a {
+  color: #197700;
+}
+
+a:hover {
+  color: #0c4700;
+}
+
+.pb-navbar.scrolled.pb-scrolled-light .navbar-brand {
+  color: #197700;
+}
+
+.pb-navbar.scrolled.pb-scrolled-light ul li a.active {
+  color: #197700 !important;
 }
 
 .mouse-wrap,
@@ -703,25 +707,6 @@ p {
   line-height: 0;
   margin-right: 7px;
   color: #800000;
-}
-
-.pb-pricing-v1 {
-  margin-bottom: 50px;
-}
-
-.pb-pricing-v1 .price {
-  font-size: 50px;
-  color: #800000;
-}
-
-.pb-pricing-v1 .price sup {
-  font-size: 20px;
-  top: -1em;
-}
-
-.pb-pricing-v1 .price span {
-  font-size: 20px;
-  color: #adb5bd;
 }
 
 .slick-arrow i {
@@ -1525,10 +1510,8 @@ textarea {
 
 .pb-outline-dark {
   text-transform: uppercase;
-  background: #800000;
-  border: 1px solid black;
   cursor: pointer;
-  color: white;
+  border: 1px solid black;
 }
 
 .pb-outline-dark:hover,
@@ -2218,7 +2201,7 @@ body {
   height: 2px;
   width: 50px;
   content: "";
-  background: #800000;
+  background: #197700;
 }
 
 .heading-border-top.light::before {
@@ -2833,14 +2816,9 @@ p.parent {
   width: 100%;
   text-align: center;
   transition: 0.3s ease-in;
-  background-color: rgba(128 0 0 / 0%);
-  color: rgba(255 255 255 / 0%);
+  background-color: #0c470000;
   display: block;
-}
-
-.donor-logo:hover .donor-logo-cover {
-  background-color: rgba(128 0 0 / 80%);
-  color: rgba(255 255 255 / 100%);
+  color: #ffffff00;
 }
 
 .donor-name {
@@ -2915,4 +2893,8 @@ input:focus {
 .ais-Highlight { /* stylelint-disable-line selector-class-pattern */
   font-style: normal;
   text-decoration: underline;
+}
+
+.scholarship-icons {
+  color: #197700;
 }
