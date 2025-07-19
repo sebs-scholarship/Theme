@@ -252,12 +252,12 @@
   }
 
   .donor-logo:hover .donor-logo-cover {
-    background-color: #ffd819cc;
+    background-color: #946415;
     color: rgba(0 0 0 / 100%);
   }
 
   .pb-outline-dark {
-    background: #ffd819;
+    background: #946415;
     color: black;
   }
 }
