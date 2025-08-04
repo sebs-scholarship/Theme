@@ -242,14 +242,6 @@
   }
 }
 
-.pb-navbar.scrolled.pb-scrolled-light .navbar-brand {
-  color: #197700;
-}
-
-.pb-navbar.scrolled.pb-scrolled-light ul li a.active {
-  color: #197700 !important;
-}
-
 .mouse-wrap,
 .scroll-wrap {
   position: absolute;
@@ -2090,6 +2082,14 @@ body {
   transition: all 0.3s ease-in-out;
 }
 
+.pb-navbar.scrolled.pb-scrolled-light .navbar-brand {
+  color: #197700;
+}
+
+.pb-navbar.scrolled.pb-scrolled-light ul li a.active {
+  color: #197700 !important;
+}
+
 #pb-nav-toggle span::before {
   top: -10px;
 }
@@ -2882,4 +2882,3 @@ input:focus {
   background-color: #0c4700cc;
   color: rgba(255 255 255 / 100%);
 }
-
