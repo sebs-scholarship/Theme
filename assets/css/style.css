@@ -242,14 +242,6 @@
   }
 }
 
-a {
-  color: #197700;
-}
-
-a:hover {
-  color: #0c4700;
-}
-
 .pb-navbar.scrolled.pb-scrolled-light .navbar-brand {
   color: #197700;
 }
@@ -550,9 +542,14 @@ h6 {
 }
 
 a {
+  color: #197700;
   -webkit-transition: 0.3s all ease;
   -o-transition: 0.3s all ease;
   transition: 0.3s all ease;
+}
+
+a:hover {
+  color: #0c4700;
 }
 
 input,
@@ -1492,6 +1489,8 @@ textarea {
   text-transform: uppercase;
   cursor: pointer;
   border: 1px solid black;
+  background: #0c4700;
+  color: white;
 }
 
 .pb-outline-dark:hover,
@@ -2798,7 +2797,7 @@ p.parent {
   transition: 0.3s ease-in;
   background-color: #0c470000;
   display: block;
-  color: #ffffff00;
+  color: #fff0;
 }
 
 .donor-name {
@@ -2884,7 +2883,3 @@ input:focus {
   color: rgba(255 255 255 / 100%);
 }
 
-.pb-outline-dark {
-  background: #0c4700;
-  color: white;
-}
