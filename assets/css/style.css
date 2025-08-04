@@ -131,16 +131,6 @@
     color: white;
     border: 1px solid white;
   }
-
-  .donor-logo:hover .donor-logo-cover {
-    background-color: #0c4700cc;
-    color: rgba(255 255 255 / 100%);
-  }
-
-  .pb-outline-dark {
-    background: #0c4700;
-    color: white;
-  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -249,16 +239,6 @@
   .pb-outline-dark:focus {
     color: black;
     border: 1px solid black;
-  }
-
-  .donor-logo:hover .donor-logo-cover {
-    background-color: #0c4700cc;
-    color: rgba(0 0 0 / 100%);
-  }
-
-  .pb-outline-dark {
-    background: #0c4700;
-    color: black;
   }
 }
 
@@ -2897,4 +2877,14 @@ input:focus {
 
 .scholarship-icons {
   color: #197700;
+}
+
+.donor-logo:hover .donor-logo-cover {
+  background-color: #0c4700cc;
+  color: rgba(255 255 255 / 100%);
+}
+
+.pb-outline-dark {
+  background: #0c4700;
+  color: white;
 }
