@@ -18,7 +18,6 @@ $(document).ready(function () {
       const $w = $(this)
       const st = $w.scrollTop()
       const navbar = $('.pb-navbar')
-      const sd = $('.js-scroll-wrap')
 
       if (st > 150) {
         if (!navbar.hasClass('scrolled')) {
@@ -34,18 +33,11 @@ $(document).ready(function () {
         if (!navbar.hasClass('awake')) {
           navbar.addClass('awake')
         }
-
-        if (sd.length > 0) {
-          sd.addClass('sleep')
-        }
       }
       if (st < 350) {
         if (navbar.hasClass('awake')) {
           navbar.removeClass('awake')
           navbar.addClass('sleep')
-        }
-        if (sd.length > 0) {
-          sd.removeClass('sleep')
         }
       }
     })
@@ -86,26 +78,6 @@ $(document).ready(function () {
     })
   }
   OnePageNav()
-
-  const offCanvasNav = function () {
-    const toggleNav = $('.js-pb_nav-toggle')
-    const offcanvasNav = $('.js-pb_offcanvas-nav_v1')
-    if (toggleNav.length > 0) {
-      toggleNav.click(function (e) {
-        $(this).toggleClass('active')
-        offcanvasNav.addClass('active')
-        e.preventDefault()
-      })
-    }
-    offcanvasNav.click(function (e) {
-      if (offcanvasNav.hasClass('active')) {
-        offcanvasNav.removeClass('active')
-        toggleNav.removeClass('active')
-      }
-      e.preventDefault()
-    })
-  }
-  offCanvasNav()
 })
 
 $(window).on('load', function () {
